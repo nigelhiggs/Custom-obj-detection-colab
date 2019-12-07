@@ -1,5 +1,6 @@
 classes = 1
-train = /content/darknet/train.txt
-valid = /content/darknet/test.txt
-names = /content/darknet/obj.names
+train = /content/Custom-obj-detection-colab/train.txt
+valid = /content/Custom-obj-detection-colab/test.txt
+names = /content/Custom-obj-detection-colab/obj.names
 backup = /content/darknet/build/darknet/x64/backup
+
