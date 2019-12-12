@@ -4,14 +4,14 @@ import os
 import glob
 
 # file path here! the r is reading the file and associated with os.chdir().
-os.chdir(r"C:/Users/nigel/Desktop/ufc fighter")
+os.chdir(r"C:/Users/PRO/Desktop/Custom-obj-detection-colab/img")
 # for loop, index and oldfile place holders. enumerate finds all .jpg and starts at 1.
 for index, oldfile in enumerate(glob.glob("*.jpg"), start=1):
 
     #newfile is formating changes to name using index holder.
     newfile = '{}.jpg'.format(index)
     #Now add add string to newfile for final output
-    newfile = 'fighter'+newfile
+    newfile = 'expo_marker'+newfile
     
     #this print statement proves final output changes.
     print(newfile)
