@@ -2,10 +2,10 @@ import shutil
 import os
 
 location = 'C:/Users/PRO/Desktop/Custom-obj-detection-colab/img'
-destination = 'C:/Users/PRO/Desktop/XmlToTxt/xml'
+destination = 'C:/Users/PRO/Desktop/redo/correct set'
 
 for x in os.listdir(location):
     print(x)
     if x.endswith('.xml'):
-        shutil.copy(location+'/'+str(x),destination)
+        shutil.move(location+'/'+str(x),destination)
         print(location+'/'+str(x))        
