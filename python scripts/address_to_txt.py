@@ -2,12 +2,12 @@
 #locations to .txt files through a for loop.
 
 
-file = open('C:/Users/nigel/Desktop/Custom-obj-detection-colab/train.txt','w+')
+file = open('C:/Users/PRO/Desktop/Custom-obj-detection-colab/train.txt','w+')
 
 
-for x in range(1,151):
-    file.write('/content/Custom-obj-detection-colab/img/fighter'+str(x)+'.jpg'+'\n') 
-    #print('/content/darknet/data/photos/fighter'+str(x)+'.jpg'+'\n')
+for x in range(1,107):
+    file.write('/content/Custom-obj-detection-colab/img/expo_marker'+str(x)+'.jpg'+'\n') 
+    print('/content/Custom-obj-detection-colab/img/expo_marker'+str(x)+'.jpg'+'\n')
 file.close() #to change file access modes 
   
 
